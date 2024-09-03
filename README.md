@@ -19,9 +19,9 @@ This section will be updated daily with a brief summary of what I learned each d
 
 | Day | Date       | Topic/Concept Covered                          | Link to Code         |
 |-----|------------|------------------------------------------------|----------------------|
-| 1   | YYYY-MM-DD | Python Basics: Variables, Data Types, Operators | [Day 1 Code](link)   |
-| 2   | YYYY-MM-DD | Control Structures: If, For, While Loops       | [Day 2 Code](link)   |
-| ... | ...        | ...                                             | ...                  |
+| 1   | 2024-09-02 | First Python Program; Hello world              | (day1_intro.py)   |
+| 2   | 2024-09-03 | Python Basics: Variables, Data Types, Operators| (day2_variables_datatypes.py)   |
+| ... | ...        | ...                                            | ...                  |
 
 ## How I Handle My Python Files
 
