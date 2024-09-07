@@ -23,9 +23,10 @@ This section will be updated daily with a brief summary of what I learned each d
 |-----|------------|------------------------------------------------|----------------------|
 | 1   | 2024-09-02 | First Python Program; Hello world              | [Day 1 Code](day1_intro.py) |
 | 2   | 2024-09-03 | Python Basics: Variables, Data Types, Operators| [Day 2 Code](day2_variables_datatypes.py) |
-| 3   | 2024-09-04 | Arithmetic Operations & String Concatenation   |[Day 3 Code](day3_arithmetic_operations.py) |
-| 4   | 2024-09-05 | Handling user inputs                           |[Day 4 Code](day4_user_input.py) |
-|  5  | 2024-09-06 | Control flow -If and else statements           |[Day 5 Code](day5_control_flow.py) |
+| 3   | 2024-09-04 | Arithmetic Operations & String Concatenation   | [Day 3 Code](day3_arithmetic_operations.py) |
+| 4   | 2024-09-05 | Handling user inputs                           | [Day 4 Code](day4_user_input.py) |
+|  5  | 2024-09-06 | Control flow -If and else statements           | [Day 5 Code](day5_control_flow.py) |
+|  6  | 2024-09-07 | Loops - For and while loops                    | [Day 6 Code](day6_loops.py) |
 
 ## How I Handle My Python Files
 
