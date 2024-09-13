@@ -27,7 +27,8 @@ This section will be updated daily with a brief summary of what I learned each d
 | 4   | 2024-09-05 | Handling user inputs                           | [Day 4 Code](day4_user_input.py) |
 |  5  | 2024-09-06 | Control flow -If and else statements           | [Day 5 Code](day5_control_flow.py) |
 |  6  | 2024-09-07 | Loops - For and while loops                    | [Day 6 Code](day6_loops.py) |
-|  7  | 2024-09-08 | Week 1  project: Number Guessing Game          | [Day 7 Code](day7_week1_proj.py) |
+|  7  | 2024-09-12 | Week 1  project: Number Guessing Game          | [Day 7 Code](day7_week1_proj.py) |
+|  8  | 2024-09-13 | Python Functions                               | [Day 8 Code](day8_functions.py) |
 
 ## How I Handle My Python Files
 
