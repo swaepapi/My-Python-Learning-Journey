@@ -30,6 +30,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  7  | 2024-09-12 | Week 1  project: Number Guessing Game          | [Day 7 Code](day7_week1_proj.py) |
 |  8  | 2024-09-13 | Python Functions                               | [Day 8 Code](day8_functions.py) |
 |  9  | 2024-09-14 | Diving deeper into python Functions            | [Day 9 Code](day9_funtions&arguments.py) |
+|  10 | 2024-09-15 | Python built-in functions & Libraries          | [Day 10 Code](day10_built_in_functions.py) |
 
 ## How I Handle My Python Files
 
