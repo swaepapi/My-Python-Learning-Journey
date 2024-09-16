@@ -31,6 +31,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  8  | 2024-09-13 | Python Functions                               | [Day 8 Code](day8_functions.py) |
 |  9  | 2024-09-14 | Diving deeper into python Functions            | [Day 9 Code](day9_funtions&arguments.py) |
 |  10 | 2024-09-15 | Python built-in functions & Libraries          | [Day 10 Code](day10_built_in_functions.py) |
+|  11 | 2024-09-16 | Python imports                                 | [Day 11 Code](day11_imports.py) |
 
 ## How I Handle My Python Files
 
