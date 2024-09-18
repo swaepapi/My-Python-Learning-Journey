@@ -33,6 +33,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  10 | 2024-09-15 | Python built-in functions & Libraries          | [Day 10 Code](day10_built_in_functions.py) |
 |  11 | 2024-09-16 | Python imports                                 | [Day 11 Code](day11_imports.py) |
 |  12 | 2024-09-17 | Custom Functions                               | [Day 12 Code](day12_custom_functions.py) |
+|  13 | 2024-09-18 | Small project that combines functions & Modules| [Day 13 Code](day13_expense_calculator.py) |
 
 ## How I Handle My Python Files
 
