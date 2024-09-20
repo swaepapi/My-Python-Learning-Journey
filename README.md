@@ -35,6 +35,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  12 | 2024-09-17 | Custom Functions                               | [Day 12 Code](day12_custom_functions.py) |
 |  13 | 2024-09-18 | Small project that combines functions & Modules| [Day 13 Code](day13_expense_calculator.py) |
 |  14 | 2024-09-19 | Wrapping up functions & Modules with a Recap   | [Day 14 Code](day14_functions_recap.py) |
+|  15 | 2024-09-20 | Data Structures : Lists intro                  | [Day 15 Code](day15_lists.py) |
 
 ## How I Handle My Python Files
 
