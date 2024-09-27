@@ -42,6 +42,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  19 | 2024-09-24 | Diving deep into Dictionaries                  | [Day 19 Code](day19_advancing_dictionaries.py) |
 |  20 | 2024-09-25 | Tuples and Sets                                | [Day 20 Code](day20_tuples.py) |
 |  21 | 2024-09-26 | Wrapping up Data structures with a mini-project| [Day 21 Code](day21_wrapping_data-structures.py) |
+|  22 | 2024-09-27 | File handling                                  | [Day 22 Code](day22_file_handling.py) |
 
 ## How I Handle My Python Files
 
