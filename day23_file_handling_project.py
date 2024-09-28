@@ -1,4 +1,5 @@
 # File handling Project.
+
 # The project will involve creating a simple program that;
 # Writes data to a file
 # Reads the contents of the file
