@@ -45,6 +45,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  22 | 2024-09-27 | File handling                                  | [Day 22 Code](day22_file_handling.py) |
 |  23 | 2024-09-28 | File handling project                          | [Day 23 Code](day23_file_handling_project.py) |
 |  24 | 2024-09-29 | Error handling                                 | [Day 24 Code](day24_error_handling.py) |
+|  25 | 2024-09-30 | Object Oriented Programming                    | [Day 25 Code](day24_error_handling.py) |
 
 ## How I Handle My Python Files
 
