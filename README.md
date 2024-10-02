@@ -47,6 +47,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  24 | 2024-09-29 | Error handling                                 | [Day 24 Code](day24_error_handling.py) |
 |  25 | 2024-09-30 | Object Oriented Programming -OOP               | [Day 25 Code](day25_oop.py) |
 |  26 | 2024-10-01 | OOP - Continuation                             | [Day 26 Code](day26_oop_advanced.py) |
+|  27 | 2024-10-02 | OOP- multiple inheritance,abstract base classes, method resolution order| [Day 27 Code](day27_oop_advanced2.py) |
 
 ## How I Handle My Python Files
 
