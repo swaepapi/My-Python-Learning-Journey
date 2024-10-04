@@ -49,6 +49,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  26 | 2024-10-01 | OOP - Continuation                             | [Day 26 Code](day26_oop_advanced.py) |
 |  27 | 2024-10-02 | OOP- multiple inheritance,abstract base classes, method resolution order| [Day 27 Code](day27_oop_advanced2.py) |
 |  28 | 2024-10-03 | Generators                                     | [Day 28 Code](day28_generators.py) |
+|  29 | 2024-10-04 | Regular Expressions in Python                  | [Day 29 Code](day29_regular_expressions.py) |
 
 ## How I Handle My Python Files
 
