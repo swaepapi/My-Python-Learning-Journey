@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -6,6 +6,11 @@ app = Flask(__name__)
 def home():
     items = ["Javascript", "Python", "SQL", "CSS"]
     return render_template('home.html', title="Home Page", name="Fidel", items=items)
+
+@app.route('/greet', methods=['POST'])
+def greet():
+    username = request.form['username']
+    return render_template('greet.html', title="Greeting Page", username=username)
 
 
 @app.route('/about')

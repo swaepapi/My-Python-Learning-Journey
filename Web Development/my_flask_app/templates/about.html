@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ title }}</title>
-</head>
-<body>
-    <h1>About Us</h1>
-    <p>Welcome to the About Page of this Flask app.</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<h2>About Us</h2>
+<p>This is the about page content.</p>
+{% endblock %}
