@@ -51,6 +51,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  28 | 2024-10-03 | Generators                                     | [Day 28 Code](day28_generators.py) |
 |  29 | 2024-10-04 | Regular Expressions in Python                  | [Day 29 Code](day29_regular_expressions.py) |
 |  30 | 2024-10-05 | Web Dvelopment in Python using Flask           | [Day 30 Code](app.py) |
+|  31 | 2024-10-06 | Web Dvelopment in Python using Flask           | [Day 31 Code](app.py) |
 
 ## How I Handle My Python Files
 

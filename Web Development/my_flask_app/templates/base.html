@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+
+    <!-- Common header -->
+    <header>
+        <h1>Welcome to My Flask App</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/about">About</a>
+        </nav>
+    </header>
+
+    <!-- Content of each page will go here -->
+    <div>
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <!-- Common footer -->
+    <footer>
+        <p>&copy; 2024 My Flask App</p>
+    </footer>
+
+</body>
+</html>
