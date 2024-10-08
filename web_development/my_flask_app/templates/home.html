@@ -1,18 +1,12 @@
 {% extends "base.html" %}
+{% block title %}Home{% endblock %}
 
 {% block content %}
-<h2>Welcome to {{ name }}'s Flask Web App</h2>
-    
-    <h2>Languages i am proficient in:</h2>
-    <ul>
-        {% for item in items %}
-            <li>{{ item }}</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Enter Your Name:</h2>
-    <form method="POST" action="/greet">
-    <input type="text" name="username" placeholder="Your Name" required>
-    <input type="submit" value="Submit">
-    </form>
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to My Flask App!</h1>
+        <p class="lead">This is a simple web application built using Python and Flask.</p>
+        <hr class="my-4">
+        <p>You can sign up, log in, and explore the features we’re building in this app.</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('signup') }}" role="button">Get Started</a>
+    </div>
 {% endblock %}
