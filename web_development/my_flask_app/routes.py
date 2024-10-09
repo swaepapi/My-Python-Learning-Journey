@@ -5,6 +5,8 @@ from models import User
 from flask_bcrypt import Bcrypt
 from flask import request, session
 from forms import SignupForm
+from flask import session, redirect, url_for, flash
+from functools import wraps
 
 
 
@@ -24,20 +26,40 @@ def signup():
     return render_template('signup.html', form=form)
 
 
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
-        if user and user.password == form.password.data:
-            session['user_id'] = user.id
+        if user and user.password == form.password.data:  # Add password hashing later for security
+            session['user_id'] = user.id  # Set user session
             flash('You have been logged in!', 'success')
             return redirect(url_for('home'))
         else:
-            flash('Login Unsuccessful. Please check email and password.', 'danger')
+            flash('Login Unsuccessful. Please check email and password', 'danger')
     return render_template('login.html', form=form)
 
 
+@app.route('/logout')
+def logout():
+    session.pop('user_id', None)  # Remove the user from the session
+    flash('You have been logged out!', 'info')
+    return redirect(url_for('login'))
+
+
+
+
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'user_id' not in session:
+            flash('Please log in to access this page', 'warning')
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
 
 
 # @app.route('/')
@@ -45,7 +67,12 @@ def login():
 #     items = ["Javascript", "Python", "SQL", "CSS"]
 #     return render_template('home.html', title="Home Page", name="Fidel", items=items)
 
+@app.route('/')
+def index():
+    return redirect(url_for('login'))
+
 @app.route('/home')
+@login_required
 def home():
     # Example: check if the user is logged in via session
     if 'user_id' not in session:

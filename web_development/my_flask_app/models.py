@@ -1,9 +1,13 @@
 from app import db
+    
 
 class User(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(120), unique=True, nullable=False)
-    password = db.Column(db.String(60), nullable=False)
+    __tablename__ = 'user'
+    __table_args__ = {'extend_existing': True}  # This allows extending the existing table
 
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(150), nullable=False, unique=True)
+    password = db.Column(db.String(200), nullable=False)
+    
     def __repr__(self):
         return f"User('{self.email}')"
