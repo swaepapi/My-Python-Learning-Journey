@@ -55,6 +55,7 @@ This section will be updated daily with a brief summary of what I learned each d
 |  32 | 2024-10-07 | Web Development in Python : Flask               | [Day 32 Code](web_development/my_flask_app/app.py) |
 |  33 | 2024-10-08 | Web Development in Python : Flask               | [Day 33 Code](web_development/my_flask_app/app.py) |
 |  34 | 2024-10-09 | Web Development in Python : Flask               | [Day 34 Code](web_development/my_flask_app/app.py) |
+|  35 | 2024-10-10 | Finalyzing and deploying my Flask app           | [Day 35 Code](web_development/my_flask_app/app.py) |
 
 ## How I Handle My Python Files
 

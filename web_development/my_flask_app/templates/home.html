@@ -2,9 +2,12 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
-    <div class="jumbotron">
-        <h1 class="display-4">Welcome to My Flask App!</h1>
-        <p class="lead">This is a simple web application built using Python and Flask.</p>
+    <div class="jumbotron" style="text-align:center;">
+        <h1 class="display-4" style="text-align:center; font-weight:bold;" >Welcome to My Flask App!</h1>
+        <p class="lead">This is a simple web application built using Python and Flask.<br><br>
+        This website is empty because it is part of my learning process and the content does not matter that much. All that matters is getting the knowlwdge about setting up a flask app and adding logging in and out functionality. 
+        </p>
+        
         <hr class="my-4">
         <p>You can sign up, log in, and explore the features we’re building in this app.</p>
         <a class="btn btn-primary btn-lg" href="{{ url_for('signup') }}" role="button">Get Started</a>

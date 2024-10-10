@@ -7,6 +7,7 @@ from flask import request, session
 from forms import SignupForm
 from flask import session, redirect, url_for, flash
 from functools import wraps
+from flask_login import login_user, logout_user, login_required
 
 
 
@@ -28,6 +29,9 @@ def signup():
 
 
 
+
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
@@ -42,16 +46,6 @@ def login():
     return render_template('login.html', form=form)
 
 
-@app.route('/logout')
-def logout():
-    session.pop('user_id', None)  # Remove the user from the session
-    flash('You have been logged out!', 'info')
-    return redirect(url_for('login'))
-
-
-
-
-
 def login_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
@@ -61,6 +55,13 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
 
+
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    flash('You have been logged out!', 'info')
+    return redirect(url_for('login'))
 
 # @app.route('/')
 # def home():
